@@ -1,0 +1,168 @@
+@charset 'utf-8';
+
+
+* {
+
+    margin: 0;
+    padding: 0;
+    border: none;                        
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+body {
+ 
+   
+    background-image: url(img/fundo3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    
+
+}
+
+main {
+margin: 0 auto;
+
+}
+
+#lado {
+ display: flex;
+ flex-direction: row;
+
+}
+
+button {
+
+ 
+    background-color: #000;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid blue;
+
+}
+
+button:hover {
+cursor: pointer;
+
+}
+
+h1 {
+
+color: #000;
+text-align: center;
+margin-top: 10px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 50px;
+
+
+}
+
+form {
+
+    margin-top: 50px;
+    border: none;
+    background-color: none;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    text-align: center; 
+    font-weight: bolder;
+
+}
+
+#table {
+
+
+margin-top: 10px;
+margin-left: 45px;
+
+
+}
+
+#primeiro {
+
+border-bottom: 1px solid #000;
+border-right: 1px solid #000;;
+
+}
+
+#segundo {
+
+border-left: 1px solid #000;
+border-bottom: 1px solid #000;
+border-right: 1px solid #000;
+
+    
+}
+
+#terceiro {
+
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+
+        
+}
+
+#quarto {
+
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;;
+            
+}
+
+#quinto {
+
+
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;;
+
+}
+
+#sexto {
+
+
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;;
+                    
+}
+
+#setimo {
+
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;;
+                        
+}
+
+#oitavo {
+
+
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;;
+                            
+}
+
+#nono {
+
+
+    border-left: 1px solid #000;
+    border-top: 1px solid #000;;
+    
+
+}
+
+#main {
+
+    margin: 0 auto;
+    
+}

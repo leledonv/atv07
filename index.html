@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Atividade 07 - Jogo </title>
+        <script src='script.js'> </script>
+        <link rel="stylesheet" type="text/css" href="estilo.css" media="screen" />
+    </head>
+    <body>
+
+
+<main>
+
+        <H1> Jogo do Clássico </H1>
+    
+        <div id="lado">
+        <div>
+        <fieldset style="width: 300px;"> 
+        <legend>  </legend>
+        <form >
+             <label for=""> Jogar contra o computador? </label> 
+             <br> 
+             <label for="">
+             <input type="radio" id="cpu" name="cpu" checked/> Sim
+             </label>
+             <label for="">
+             <input type="radio" id="cpu" name="cpu" /> Não
+            </label>  
+            <br> <br>
+            <button id="reiniciar" > Reiniciar Jogo </button>
+            <br> <br>
+           </fieldset>
+
+        </form>
+        </div>
+
+        <div id="table">
+        <table width="200" border="1" id="table">
+            <tbody>
+            <tr >
+                <td id="primeiro"> <img src="img/transp.png" alt="imagem" id="c1" onclick="return checkjogo(this.id)" /></td>
+                <td id="segundo"> <img src="img/transp.png" alt="imagem" id="c2" onclick="return checkjogo(this.id)" /></td>
+                <td id="terceiro"> <img src="img/transp.png" alt="imagem" id="c3" onclick="return checkjogo(this.id)" /></td>
+            </tr> 
+            <tr >
+                <td id="quarto"> <img src="img/transp.png" alt="imagem" id="c4" onclick="return checkjogo(this.id)" /></td>
+                <td id="quinto"> <img src="img/transp.png" alt="imagem" id="c5" onclick="return checkjogo(this.id)" /></td>
+                <td id="sexto"> <img src="img/transp.png" alt="imagem" id="c6" onclick="return checkjogo(this.id)" /></td>
+            </tr> 
+            <tr >
+                <td id="setimo"> <img src="img/transp.png" alt="imagem" id="c7" onclick="return checkjogo(this.id)" /></td>
+                <td id="oitavo"> <img src="img/transp.png" alt="imagem" id="c8" onclick="return checkjogo(this.id)" /></td>
+                <td id="nono"> <img src="img/transp.png" alt="imagem" id="c9" onclick="return checkjogo(this.id)" /></td>
+            </tr> 
+        </tbody>
+        </table>
+        </div>
+    </div>
+
+    <div id="texto"  style="font-size: 24px; font-weight: bolder; text-align: center; margin-top: 25px; color: rgb(0, 0, 0)"> </div>
+   
+</main>
+    </body>
+  
+</html>
